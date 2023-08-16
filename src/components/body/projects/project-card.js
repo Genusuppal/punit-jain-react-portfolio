@@ -1,23 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "./project-card.css";
 function ProjectCard({ project }) {
-	function ImageChangeOnMouseOver({ primaryImg, secondaryImg }) {
-		const imageRef = useRef(null);
-
-		return (
-			<img
-				onMouseOver={() => {
-					imageRef.current.src = require(`../../../assets/${secondaryImg}`);
-				}}
-				onMouseOut={() => {
-					imageRef.current.src = require(`../../../assets/${primaryImg}`);
-				}}
-				src={require(`../../../assets/${primaryImg}`)}
-				alt=""
-				ref={imageRef}
-				className="project-photo project-photo-box"
-			/>
-		);
+	function ImageChangeOnMouseOver({ primaryImg }) {
+		return <img src={require(`../../../assets/${primaryImg}`)} alt="" className="project-photo project-photo-box" />;
 	}
 	function VideoOnMouseOver({ Vid }) {
 		return (
@@ -29,7 +14,7 @@ function ProjectCard({ project }) {
 	const [readmore, setmode] = useState(false);
 	return (
 		<div className={`project-card ${project.id % 2 ? "reverse-order" : ""}`}>
-			<div className="">{project.video ? <VideoOnMouseOver Img={project.image} Vid={project.video} /> : <ImageChangeOnMouseOver primaryImg={project.image} secondaryImg={project.secondary_image} />}</div>
+			<div className="">{project.video ? <VideoOnMouseOver Vid={project.video} /> : <ImageChangeOnMouseOver primaryImg={project.image} />}</div>
 			<div className="project-info">
 				<label className="project-title">{project.title}</label>
 				<div className="project-links">

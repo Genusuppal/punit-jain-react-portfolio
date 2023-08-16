@@ -8,7 +8,6 @@ export const ProjectData = [
 			"Our app Parvah has two formats, one for the general user and another for healthcare providers. The general user version of our app that is for patients to monitor and manage their health data. The healthcare provider version of the app is a comprehensive suite of tools to help manage patient data, streamline processes, and improve outcomes. Allowing healthcare providers to have an easier job working and keeping track of patient data would help them provide better patient care and enable patients to access and understand their health information easily.",
 		demo: "https://parvah.netlify.app/",
 		// github: "https://github.com/ThantZinPhyo-Slark/always-illest",
-		image: "Project1Video.mp4",
 		video: "Project1Video.mp4",
 		colors: ["#5182e8", "#576eff", "#dadff5"],
 	},
@@ -19,8 +18,7 @@ export const ProjectData = [
 		tags: ["Machine Learning", "Data Science", "Feature Engineering"],
 		demo: "https://www.youtube.com/watch?v=7X-qz3aRV5M",
 		image: "Project2Photo.png",
-		secondary_image: "Project2Photo.png",
-		colors: ["#ffac36", "#1d7194", "#2487af"]
+		colors: ["#ffac36", "#1d7194", "#2d9df2"]
 		// colors: ["#7E57C2", "#576eff", "#D8CCED"]
 	},
 	/*

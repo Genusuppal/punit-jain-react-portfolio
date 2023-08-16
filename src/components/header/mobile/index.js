@@ -7,6 +7,11 @@ function Mobile({ isOpen, setIsOpen }) {
 				<i className="fi-rr-cross-circle"></i>
 			</div>
 			<div className="mobile-option" onClick={() => setIsOpen(!isOpen)}>
+				<a href="#experience">
+					<i className="fi-rr-edit-alt option-icon"></i>Certificates
+				</a>
+			</div>
+			<div className="mobile-option" onClick={() => setIsOpen(!isOpen)}>
 				<a href="#projects">
 					<i className="fi-rr-edit-alt option-icon"></i>Projects
 				</a>

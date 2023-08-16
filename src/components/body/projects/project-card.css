@@ -12,6 +12,7 @@
 .project-photo {
 	width: 350px;
 	height: 200px;
+	margin: 0px -5%;
 	object-fit: fill; /* Maintain aspect ratio and cover the container */
 }
 .project-photo-box {

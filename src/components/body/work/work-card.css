@@ -1,40 +1,134 @@
-.work-card {
-    padding: 8px;
-    width: 45%;
-    margin-top: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row-reverse;
+.work-title {
+	display: flex;
+	flex-direction: column;
+	margin-top: 16px;
 }
-.work-logo {
-    height: 80px;
+
+.work-title div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.work-title label {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.work-title p {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	height: 0px;
+	font-size: 15px;
+	font-weight: 200;
+}
+
+.work-card {
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 16px;
+	padding: 8px 0px;
+}
+
+.reverse-order {
+	flex-direction: row-reverse;
+}
+
+.work-photo {
+	width: 350px;
+	height: 200px;
+	margin: 0px -5%;
+	object-fit: fill; /* Maintain aspect ratio and cover the container */
+}
+
+.work-photo-box {
+	border: 8px solid;
+	border-radius: 8px;
+	--grad_color_1: #7e57c2;
+	--grad_color_2: #9879ce;
+	--grad_color_3: #d8cced;
+	border-image: linear-gradient(135deg, var(--grad_color_1), var(--grad_color_2), var(--grad_color_3));
+
+	/* If you want to specify different borders for different sides */
+	border-width: 6px;
+
+	/* You can also specify the slice values if needed */
+	border-image-slice: 1;
+	/* border-image: repeating-linear-gradient(135deg,#D8CCED 0 10px,#D8CCED 0 20px,#D8CCED 0 30px) 8; */
+	mask: conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+		conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%) / var(--_i, 8px) 200% border-box no-repeat, linear-gradient(#000 0 0) padding-box no-repeat;
+
+	-webkit-mask: conic-gradient(from 180deg at top 8px right 8px, #0000 90deg, #000 0) var(--_i, 200%) 0 /200% var(--_i, 8px) border-box no-repeat,
+		conic-gradient(at bottom 8px left 8px, #0000 90deg, #000 0) 0 var(--_i, 200%) / var(--_i, 8px) 200% border-box no-repeat, linear-gradient(#000 0 0) padding-box no-repeat;
+	transition: 0.3s, -webkit-mask-position 0.3s 0.3s;
+}
+
+.work-photo-box:hover {
+	--_i: 100%;
+	color: #cc333f;
+	transform: scale(1.2);
+	transition: 0.3s, -webkit-mask-size 0.3s 0.3s;
 }
 
 .work-info {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+	margin-right: 24px;
 }
 
-.work-dates {
-    color: black;
+.work-links a {
+	text-decoration: none;
+	color: black;
 }
 
-.work-desc {
-    text-align: left;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: horizontal;
-    overflow: hidden ;
-    text-overflow: ellipsis;
-    max-width: 80%;
+.work-links {
+	margin-top: 6px;
+	display: flex;
+	align-content: center;
+	justify-content: space-between;
 }
 
+.work-about {
+	display: none;
+}
 
+.link-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: max-content;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-size: 16px;
+	margin-right: 6px;
+}
+
+.link-button i {
+	display: flex;
+	align-items: center;
+	mask-repeat: 4px;
+}
 
 @media only screen and (max-width: 720px) {
-    .work-card{
-        width: 100%;
-    }
+	.work-photo {
+		width: 325;
+		height: 125;
+	}
+	.work-photo-box:hover {
+		--_i: 100%;
+		color: #cc333f;
+		transform: scale(1);
+		transition: 0.3s, -webkit-mask-size 0.3s 0.3s, mask-size 0.3s 0.3s;
+	}
+	.work-card {
+		flex-direction: column-reverse;
+	}
+	.work-info {
+		margin-left: 0px;
+		margin-top: 12px;
+	}
+	.work-tags {
+		max-width: 100%;
+	}
 }
