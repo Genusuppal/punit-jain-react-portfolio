@@ -12,17 +12,18 @@ export const ProjectData = [
 		video: "Project1Video.mp4",
 		colors: ["#5182e8", "#576eff", "#dadff5"],
 	},
-	/*
 	{
 		id: 2,
-		title: "WordPress developer @ “Fėja” | 2021 – present",
-		about: "Created a website for a company that increased sales by up to 20% monthly and implemented a custom WordPress template using WooCommerce.",
-		tags: ["Wordpress", "eCommerse", "Design"],
-		demo: "https://feja.lt/",
-		image: "feja1.png",
-		secondary_image: "feja.png",
-		colors: ["#7E57C2", "#576eff", "#D8CCED"]
+		title: "Data Science Project on Amazon Review Dataset",
+		about: "A Course project in 4th Semester, The goal is to develop a model to predict user rating and recommend most similar items to users based on collaborative filtering.",
+		tags: ["Machine Learning", "Data Science", "Feature Engineering"],
+		demo: "https://www.youtube.com/watch?v=7X-qz3aRV5M",
+		image: "Project2Photo.png",
+		secondary_image: "Project2Photo.png",
+		colors: ["#ffac36", "#1d7194", "#2487af"]
+		// colors: ["#7E57C2", "#576eff", "#D8CCED"]
 	},
+	/*
     {
         id:3,
         title:"Participant @ Hack4Vilnius, Hackathon | 2021",

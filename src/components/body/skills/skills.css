@@ -18,6 +18,7 @@
     flex-wrap: wrap;
     max-width: 70%;
     justify-content: flex-end;
+    row-gap: 20px;
 }
 
 @media only screen and (max-width: 720px) {

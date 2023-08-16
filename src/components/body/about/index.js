@@ -13,7 +13,7 @@ function About() {
 					<br /> I am a Digital Marketing and Business Analyst.
 				</div>
 				<div className="about-photo">
-					<img src={require("../../../assets/Photograph.jpeg")} className="picture" />
+					<img src={require("../../../assets/Photograph.jpeg")} className="picture" alt="Punit-Jain" />
 				</div>
 				{/* <Carousel>
 					<div>

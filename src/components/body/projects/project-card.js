@@ -7,12 +7,12 @@ function ProjectCard({ project }) {
 		return (
 			<img
 				onMouseOver={() => {
-					imageRef.current.src = secondaryImg;
+					imageRef.current.src = require(`../../../assets/${secondaryImg}`);
 				}}
 				onMouseOut={() => {
-					imageRef.current.src = primaryImg;
+					imageRef.current.src = require(`../../../assets/${primaryImg}`);
 				}}
-				src={primaryImg}
+				src={require(`../../../assets/${primaryImg}`)}
 				alt=""
 				ref={imageRef}
 				className="project-photo project-photo-box"
@@ -74,11 +74,6 @@ function ProjectCard({ project }) {
 					</div>
 				)}
 			</div>
-			{/* {(project.id % 2) - 1 ? (
-				<div className="">
-					<ImageChangeOnMouseOver primaryImg={project.image} secondaryImg={project.secondary_image} />
-				</div>
-			) : null} */}
 		</div>
 	);
 }

@@ -1,89 +1,63 @@
 export const SkillsData = [
 	{
 		id: 1,
-		type: "Cloud & Linux",
+		type: "Languages",
 		list: [
 			{
-				name: "Azure",
-				icon: <i className="devicon-azure-plain colored"></i>,
+				name: "C",
+				icon: <i className="devicon-c-plain colored"></i>,
 			},
 			{
-				name: "Google Cloud",
-				icon: <i className="devicon-googlecloud-plain colored"></i>,
+				name: "C++",
+				icon: <i className="devicon-cplusplus-plain colored"></i>,
 			},
 			{
-				name: "AWS",
-				icon: <i className="devicon-amazonwebservices-plain colored"></i>,
+				name: "HTML5",
+				icon: <i className="devicon-html5-plain colored"></i>,
 			},
 			{
-				name: "Digital Ocean",
-				icon: <i className="devicon-digitalocean-plain colored"></i>,
+				name: "CSS3",
+				icon: <i className="devicon-css3-plain colored"></i>,
 			},
 		],
 	},
 	{
 		id: 2,
-		type: "Web-Development",
+		type: "Tools",
 		list: [
 			{
-				name: "ReactJS",
-				icon: <i className="devicon-react-original colored"></i>,
+				name: "SQL",
+				icon: <i className="devicon-mysql-plain colored"></i>,
 			},
 			{
-				name: "AngularJS",
-				icon: <i className="devicon-angularjs-plain colored"></i>,
+				name: "VSCode",
+				icon: <i className="devicon-vscode-plain colored"></i>,
 			},
 			{
-				name: "NextJS",
-				icon: <i className="devicon-nextjs-plain colored"></i>,
-			},
-			{
-				name: "VueJS",
-				icon: <i className="devicon-vuejs-plain colored"></i>,
+				name: "SEO Tools",
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/11524/11524551.png" />,
 			},
 		],
 	},
 	{
 		id: 3,
-		type: "App-Development",
+		type: "Management Skills",
 		list: [
 			{
-				name: "React Native",
-				icon: <i className="devicon-react-plain"></i>,
+				name: "Digital Marketing",
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/3701/3701680.png" />,
 			},
 			{
-				name: "Flutter",
-				icon: <i className="devicon-flutter-plain colored"></i>,
+				name: "Financial Skills",
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/11777/11777487.png" />,
 			},
 			{
-				name: "Android",
-				icon: <i className="devicon-android-plain colored"></i>,
+				name: "Social Media Marketing",
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/1968/1968666.png" />,
 			},
 			{
-				name: "Swift",
-				icon: <i className="devicon-swift-plain colored"></i>,
-			},
-		],
-	},
-	{
-		id: 4,
-		type: "Data Science & Backend",
-		list: [
-			{
-				name: "Python",
-				icon: <i className="devicon-python-plain colored"></i>,
-			},
-			{
-				name: "Flask",
-				icon: <i className="devicon-flask-plain colored"></i>,
-			},
-			{
-				name: "DJango",
-				icon: <i className="devicon-django-plain colored"></i>,
-			},
-			{
-				name: "NodeJS",
-				icon: <i className="devicon-nodejs-plain colored"></i>,
+				name: "Event Management",
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/4799/4799342.png" />,
 			},
 		],
 	},
