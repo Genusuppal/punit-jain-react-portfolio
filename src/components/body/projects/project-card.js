@@ -13,7 +13,7 @@ function ProjectCard({ project }) {
 	}
 	const [readmore, setmode] = useState(false);
 	return (
-		<div className={`project-card ${project.id % 2 ? "reverse-order" : ""}`}>
+		<div className={`project-card ${project.id % 2 ? "reverse-order-project" : ""}`}>
 			<div className="">{project.video ? <VideoOnMouseOver Vid={project.video} /> : <ImageChangeOnMouseOver primaryImg={project.image} />}</div>
 			<div className="project-info">
 				<label className="project-title">{project.title}</label>

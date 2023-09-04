@@ -24,7 +24,7 @@ function WorkCard({ work }) {
 					{work.duration && <p style={{ fontStyle: "italic" }}>{work.duration}</p>}
 				</div>
 			</section>
-			<section className={`work-card ${work.id % 2 ? "reverse-order" : ""}`}>
+			<section className={`work-card ${work.id % 2 ? "reverse-order-work" : ""}`}>
 				<div className="">{work.video ? <VideoOnMouseOver Vid={work.video} colors={work.colors} /> : <ImageChangeOnMouseOver primaryImg={work.image} colors={work.colors} />}</div>
 				<div className="work-info">
 					<div className="work-links">

@@ -6,7 +6,7 @@
 	margin: 16px 0px;
 	padding: 8px 0px;
 }
-.reverse-order {
+.reverse-order-project {
 	flex-direction: row-reverse;
 }
 .project-photo {

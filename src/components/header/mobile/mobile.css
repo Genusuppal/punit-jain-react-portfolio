@@ -1,6 +1,6 @@
 .mobile {
     background-color: white;
-    height: 50vw;
+    height: min-content;
     width: 60vw;
     position: absolute;
     right: 0px;

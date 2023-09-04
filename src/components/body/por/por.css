@@ -1,0 +1,12 @@
+.por {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.por-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 24px 0px;
+}
