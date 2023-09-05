@@ -17,7 +17,7 @@ export const ProjectData = [
 		about: "A Course project in 4th Semester, The goal is to develop a model to predict user rating and recommend most similar items to users based on collaborative filtering.",
 		tags: ["Machine Learning", "Data Science", "Feature Engineering"],
 		demo: "https://www.youtube.com/watch?v=7X-qz3aRV5M",
-		image: "Project2Photo.png",
+		image: "Project2Photo.jpg",
 		colors: ["#ffac36", "#1d7194", "#2d9df2"]
 		// colors: ["#7E57C2", "#576eff", "#D8CCED"]
 	},

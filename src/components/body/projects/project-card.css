@@ -93,8 +93,8 @@
 
 @media only screen and (max-width: 720px) {
 	.project-photo {
-		width: 325;
-		height: 125;
+		width: 250px;
+		height: 142.8571428571px;
 	}
 	.project-photo-box:hover {
 		--_i: 100%;
