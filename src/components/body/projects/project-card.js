@@ -1,12 +1,29 @@
 import React, { useState } from "react";
 import "./project-card.css";
 function ProjectCard({ project }) {
-	function ImageChangeOnMouseOver({ primaryImg }) {
-		return <img src={require(`../../../assets/${primaryImg}`)} alt="" className="project-photo project-photo-box" />;
-	}
-	function VideoOnMouseOver({ Vid }) {
+	function ImageChangeOnMouseOver({ primaryImg, link }) {
 		return (
-			<video autoPlay={true} loop={true} muted preload="auto" className="project-photo project-photo-box">
+			<img
+				src={require(`../../../assets/${primaryImg}`)}
+				alt=""
+				className="project-photo project-photo-box"
+				onClick={() => {
+					window.open(link);
+				}}
+			/>
+		);
+	}
+	function VideoOnMouseOver({ Vid, link }) {
+		return (
+			<video
+				autoPlay={true}
+				loop={true}
+				muted
+				preload="auto"
+				className="project-photo project-photo-box"
+				onClick={() => {
+					window.open(link);
+				}}>
 				<source src={require(`../../../assets/${Vid}`)} />
 			</video>
 		);
@@ -14,7 +31,7 @@ function ProjectCard({ project }) {
 	const [readmore, setmode] = useState(false);
 	return (
 		<div className={`project-card ${project.id % 2 ? "reverse-order-project" : ""}`}>
-			<div className="">{project.video ? <VideoOnMouseOver Vid={project.video} /> : <ImageChangeOnMouseOver primaryImg={project.image} />}</div>
+			<div className="">{project.video ? <VideoOnMouseOver Vid={project.video} link={project.demo} /> : <ImageChangeOnMouseOver primaryImg={project.image} link={project.demo} />}</div>
 			<div className="project-info">
 				<label className="project-title">{project.title}</label>
 				<div className="project-links">

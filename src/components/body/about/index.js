@@ -8,9 +8,10 @@ function About() {
 		<div className="about">
 			<div className="about-top">
 				<div className="about-info">
-					Hello There ✋, I am,
-					<br /> <span className="info-name">Punit Jain</span>.
-					<br /> I am a Digital Marketing and Business Analyst.
+					Hello There ✋, Myself,
+					<br /> <span className="info-name">Punit Jain</span>
+					<br /> your Friendly Neighborhood Marketeer & Business Analyst
+					<SocialContact align={"left"} />
 				</div>
 				<div className="about-photo">
 					<img src={require("../../../assets/Photograph.jpeg")} className="picture" alt="Punit-Jain" />
@@ -26,7 +27,6 @@ function About() {
 					</div>
 				</Carousel> */}
 			</div>
-			<SocialContact />
 		</div>
 	);
 }

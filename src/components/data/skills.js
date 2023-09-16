@@ -1,28 +1,6 @@
 export const SkillsData = [
 	{
 		id: 1,
-		type: "Languages",
-		list: [
-			{
-				name: "C",
-				icon: <i className="devicon-c-plain colored"></i>,
-			},
-			{
-				name: "C++",
-				icon: <i className="devicon-cplusplus-plain colored"></i>,
-			},
-			{
-				name: "HTML5",
-				icon: <i className="devicon-html5-plain colored"></i>,
-			},
-			{
-				name: "CSS3",
-				icon: <i className="devicon-css3-plain colored"></i>,
-			},
-		],
-	},
-	{
-		id: 2,
 		type: "Tools",
 		list: [
 			{
@@ -40,16 +18,16 @@ export const SkillsData = [
 		],
 	},
 	{
-		id: 3,
+		id: 2,
 		type: "Management Skills",
 		list: [
 			{
 				name: "Digital Marketing",
-				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/3701/3701680.png" />,
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/8644/8644422.png" />,
 			},
 			{
 				name: "Financial Skills",
-				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/11777/11777487.png" />,
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/5581/5581455.png" />,
 			},
 			{
 				name: "Social Media Marketing",

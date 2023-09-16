@@ -1,6 +1,6 @@
 .por-card {
 	padding: 8px;
-	width: 45%;
+	width: 28%;
 	margin-top: 16px;
 	display: flex;
 	justify-content: space-between;
@@ -24,12 +24,17 @@
 	/* gap: 10px; */
 }
 
+.por-info label {
+	white-space: pre;
+}
+
 .por-dates {
 	color: black;
 }
 
 .por-desc {
-	text-align: left;
+	text-align: justify;
+	/* white-space: ; */
 	display: -webkit-box;
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: horizontal;

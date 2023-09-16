@@ -11,7 +11,7 @@ function POR() {
 			<label className="section-title">Positions of Responsibility</label>
 			<div className="por-list">
 				{data.map((item) => {
-					return <PORCard item={item} />;
+					return <PORCard item={item} key={item.key} />;
 				})}
 			</div>
 		</div>

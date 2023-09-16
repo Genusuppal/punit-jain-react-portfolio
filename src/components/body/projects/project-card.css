@@ -5,6 +5,7 @@
 	align-items: center;
 	margin: 16px 0px;
 	padding: 8px 0px;
+	column-gap: 35px;
 }
 .reverse-order-project {
 	flex-direction: row-reverse;
@@ -12,10 +13,10 @@
 .project-photo {
 	width: 350px;
 	height: 200px;
-	margin: 0px -5%;
 	object-fit: fill; /* Maintain aspect ratio and cover the container */
 }
 .project-photo-box {
+	cursor: pointer;
 	border: 8px solid;
 	border-radius: 8px;
 	border-image: linear-gradient(135deg, #7e57c2, #9879ce, #d8cced);
@@ -38,12 +39,8 @@
 .project-photo-box:hover {
 	--_i: 100%;
 	color: #cc333f;
-	transform: scale(1.2);
+	transform: scale(1.09);
 	transition: 0.3s, -webkit-mask-size 0.3s 0.3s;
-}
-
-.project-info {
-	margin-right: 24px;
 }
 
 .project-title {

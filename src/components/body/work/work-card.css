@@ -31,6 +31,7 @@
 	align-items: center;
 	margin-bottom: 16px;
 	padding: 8px 0px;
+	column-gap: 35px;
 }
 
 .reverse-order-work {
@@ -40,7 +41,6 @@
 .work-photo {
 	width: 350px;
 	height: 200px;
-	margin: 0px -5%;
 	object-fit: fill; /* Maintain aspect ratio and cover the container */
 }
 
@@ -69,12 +69,8 @@
 .work-photo-box:hover {
 	--_i: 100%;
 	color: #cc333f;
-	transform: scale(1.2);
+	transform: scale(1.09);
 	transition: 0.3s, -webkit-mask-size 0.3s 0.3s;
-}
-
-.work-info {
-	margin-right: 24px;
 }
 
 .work-links a {

@@ -18,7 +18,7 @@ export const ProjectData = [
 		tags: ["Machine Learning", "Data Science", "Feature Engineering"],
 		demo: "https://www.youtube.com/watch?v=7X-qz3aRV5M",
 		image: "Project2Photo.jpg",
-		colors: ["#ffac36", "#1d7194", "#2d9df2"]
+		colors: ["#ffac36", "#1d7194", "#2d9df2"],
 		// colors: ["#7E57C2", "#576eff", "#D8CCED"]
 	},
 	/*
