@@ -1,5 +1,6 @@
 import React from "react";
 import "./mobile.css";
+
 function Mobile({ isOpen, setIsOpen }) {
 	return (
 		<div className="mobile">
@@ -8,7 +9,7 @@ function Mobile({ isOpen, setIsOpen }) {
 			</div>
 			<div className="mobile-option" onClick={() => setIsOpen(!isOpen)}>
 				<a href="#experience">
-					<i className="fi-rr-edit-alt option-icon"></i>Experience
+					<i className="fi-rr-briefcase option-icon"></i>Experience
 				</a>
 			</div>
 			<div className="mobile-option" onClick={() => setIsOpen(!isOpen)}>
@@ -21,7 +22,7 @@ function Mobile({ isOpen, setIsOpen }) {
 					<i className="fi-rr-laptop option-icon"></i>Skills
 				</a>
 			</div>
-			<div className="mobile-option">
+			<div className="mobile-option" onClick={() => setIsOpen(!isOpen)}>
 				<a href="#pors">
 					<i className="fi-rr-briefcase option-icon"></i>PORs
 				</a>

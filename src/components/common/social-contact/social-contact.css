@@ -3,6 +3,10 @@
 	justify-content: var(--alignment);
 	align-items: center;
 	column-gap: 16px;
+
+	@media screen and (max-width: 720px) {
+		justify-content: center;
+	}
 }
 
 .social-icon-div {
