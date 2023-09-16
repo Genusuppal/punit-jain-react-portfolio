@@ -11,12 +11,13 @@
 }
 
 .skill-icon {
-	font-size: 80px;
+	font-size: 60px;
+	scale: calc(80/60);
 }
 
 .skill-name {
 	font-size: 18px;
-	max-width: 180px;
+	/* max-width: 180px; */
 	text-align: center;
 }
 
@@ -26,6 +27,6 @@
 		height: 100px;
 	}
 	.skill-icon {
-		font-size: 60px;
+		scale: 1;
 	}
 }

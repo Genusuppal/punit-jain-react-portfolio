@@ -30,12 +30,20 @@ export const SkillsData = [
 				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/5581/5581455.png" />,
 			},
 			{
-				name: "Social Media Marketing",
-				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/1968/1968666.png" />,
+				name: "Strategy Planning",
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/9926/9926384.png" />,
 			},
 			{
-				name: "Event Management",
-				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/4799/4799342.png" />,
+				name: "Market Research",
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/6078/6078545.png" />,
+			},
+			{
+				name: "Risk Analysis",
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/11445/11445769.png" />,
+			},
+			{
+				name: "Social Media Marketing",
+				icon: <img alt="SEO Tools" width={60} src="https://cdn-icons-png.flaticon.com/512/1968/1968666.png" />,
 			},
 		],
 	},
