@@ -9,6 +9,7 @@ export const ProjectData = [
 		demo: "https://parvah.netlify.app/",
 		// github: "https://github.com/ThantZinPhyo-Slark/always-illest",
 		video: "Project1Video.mp4",
+		videoLink: "https://youtu.be/wuP4j7YytIM",
 		colors: ["#5182e8", "#576eff", "#dadff5"],
 	},
 	{

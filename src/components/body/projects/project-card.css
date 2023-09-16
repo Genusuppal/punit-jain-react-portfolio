@@ -79,13 +79,17 @@
 	padding: 4px 8px;
 	border-radius: 4px;
 	font-size: 16px;
-	margin-right: 6px;
+	margin-right: 12px;
 }
 
 .link-button i {
 	display: flex;
 	align-items: center;
 	mask-repeat: 4px;
+}
+
+.link-button i, img {
+	margin-right: 6px;
 }
 
 @media only screen and (max-width: 720px) {
