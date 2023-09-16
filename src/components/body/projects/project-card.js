@@ -31,14 +31,14 @@ function ProjectCard({ project }) {
 	const [readmore, setmode] = useState(false);
 	return (
 		<div className={`project-card ${project.id % 2 ? "reverse-order-project" : ""}`}>
-			<div className="">{project.video ? <VideoOnMouseOver Vid={project.video} link={project.demo} /> : <ImageChangeOnMouseOver primaryImg={project.image} link={project.demo} />}</div>
+			<div className="">{project.video ? <VideoOnMouseOver Vid={project.video} link={project.prototype} /> : <ImageChangeOnMouseOver primaryImg={project.image} link={project.prototype} />}</div>
 			<div className="project-info">
 				<label className="project-title">{project.title}</label>
 				<div className="project-links">
-					{project.demo && (
-						<a className="project-link" href={project.demo} target="_blank" rel="noreferrer">
+					{project.prototype && (
+						<a className="project-link" href={project.prototype} target="_blank" rel="noreferrer">
 							<div className="link-button" style={{ backgroundColor: project.colors[0] }}>
-								<i className="fi-rr-globe"></i>Demo
+								<i className="fi-rr-globe"></i>Prototype
 							</div>
 						</a>
 					)}
