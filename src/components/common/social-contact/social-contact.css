@@ -1,13 +1,14 @@
 .social-contact {
 	display: flex;
-	justify-content: center;
+	justify-content: var(--alignment);
 	align-items: center;
+	column-gap: 16px;
 }
 
 .social-icon-div {
-	padding: 6px;
+	padding: 6px 0;
 	cursor: pointer;
-	margin: 6px;
+	margin: 6px 0;
 	height: 32px;
 }
 
@@ -16,15 +17,13 @@
 }
 
 .resume-link {
+	display: flex;
+	align-items: center;
 	height: 32px;
 	background-color: #1780b9;
 	border-radius: 20px;
 	padding: 0px 10px;
-}
-
-.resume-link a{
-	position: relative;
-	top: 2.5px;
+	font-size: 18px;
 	color: white;
 	text-decoration: none;
 }
