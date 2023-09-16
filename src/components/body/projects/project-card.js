@@ -52,7 +52,7 @@ function ProjectCard({ project }) {
 					{project.videoLink && (
 						<a className="project-link" href={project.videoLink} target="_blank" rel="noreferrer">
 							<div className="link-button" style={{ backgroundColor: "#f08080" }}>
-								<img height={16} src={"https://cdn-icons-png.flaticon.com/512/1077/1077046.png"} />
+								<img height={16} alt="" src={"https://cdn-icons-png.flaticon.com/512/1077/1077046.png"} />
 								Video
 							</div>
 						</a>
