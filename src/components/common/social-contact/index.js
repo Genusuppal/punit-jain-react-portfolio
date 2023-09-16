@@ -6,7 +6,7 @@ function SocialContact({ align = "center" }) {
 	return (
 		<div className="social-contact" style={{ "--alignment": align }}>
 			<div className="social-icon-div">
-				<a className="resume-link" href={require("../../../assets/RESUME.pdf")} target="_blank" rel="noreferrer">
+				<a className="resume-link" href={"https://drive.google.com/file/d/1p-Gmhr-sR2cW3-ah51yQbZnbdE4SJfJ7/view?usp=sharing"} target="_blank" rel="noreferrer">
 					Resume
 				</a>
 			</div>
